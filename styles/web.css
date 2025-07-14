@@ -46,23 +46,62 @@ nav ul li{
     border: none;
     
 }
-
+.third-sectitle{
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+.stats{
+    font-weight: bold;
+    font-size: 80px;
+    display: flex;
+    justify-content: space-between;
+    color: #4E47FF;
+    margin: 0px;
+}
+.productivity{
+    display: flex;
+    justify-content: center;
+    gap: 295px;
+}
+/*Section Styles*/
 .section-title{
     font-size: 42;
     font-weight: bold;
     color: #252432;
+    margin-bottom: 40px;
     
 }
 
 .section-action{
     display: flex;
     justify-content: space-between;
-    padding: 116px 159px 116px 141px;
+    margin: 116px 159px 116px 141px;
     align-items: center;
 }
 .section-picture{
     border-radius: 48px;
 }
+.section-bg{
+    background-color:rgba(78, 71, 255, 0.1);
+    padding:50px 150px 50px 150px;
+    border-radius:30px;
+    width: 1140px;
+    height: 306px;
+    
+}
+.third-section{
+    margin: 116px 159px 137px 141px;
+    
+}
+
+.trd-body{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    align-items: center;
+}
+
 
 
 /*banner styles*/
@@ -83,3 +122,4 @@ nav ul li{
 .header{
     background-image: url(../Assets/Hero-bg.png);
 }
+
