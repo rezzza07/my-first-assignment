@@ -44,7 +44,26 @@ nav ul li{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    
 }
+
+.section-title{
+    font-size: 42;
+    font-weight: bold;
+    color: #252432;
+    
+}
+
+.section-action{
+    display: flex;
+    justify-content: space-between;
+    padding: 116px 159px 116px 141px;
+    align-items: center;
+}
+.section-picture{
+    border-radius: 48px;
+}
+
 
 /*banner styles*/
 .banner{
